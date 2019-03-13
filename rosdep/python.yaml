@@ -999,6 +999,10 @@ python-crccheck-pip:
   ubuntu:
     pip:
       packages: [crccheck]
+python-crontab:
+  ubuntu:
+    pip:
+      packages: [crontab]
 python-crypto:
   alpine: [py-crypto]
   arch: [python2-crypto]
@@ -1855,6 +1859,10 @@ python-inject-pip:
   ubuntu:
     pip:
       packages: [inject]
+python-inotify:
+  ubuntu:
+    pip:
+      packages: [inotify]
 python-inputs-pip:
   debian:
     pip:
@@ -2254,7 +2262,9 @@ python-networkmanager:
     buster: [python-networkmanager]
     jessie: [python-networkmanager]
     stretch: [python-networkmanager]
-  ubuntu: [python-networkmanager]
+  ubuntu:
+    pip:
+      packages: [python-networkmanager]
 python-networkx:
   arch: [python2-networkx]
   debian: [python-networkx]
@@ -2817,6 +2827,10 @@ python-pygithub3:
   ubuntu:
     pip:
       packages: [pygithub3]
+python-pygments:
+  ubuntu:
+    pip:
+      packages: [pygments]
 python-pygps-pip:
   debian:
     pip:
@@ -2845,6 +2859,10 @@ python-pygraphviz:
       packages: [pygraphviz]
   slackware: [pygraphviz]
   ubuntu: [python-pygraphviz]
+python-pygtail:
+  ubuntu:
+    pip:
+      packages: [pygtail]
 python-pyinotify:
   debian: [python-pyinotify]
   fedora: [python-inotify]
@@ -3004,6 +3022,10 @@ python-pyramid:
   fedora: [python-pyramid]
   gentoo: [dev-python/pyramid]
   ubuntu: [python-pyramid]
+python-pysensors:
+  ubuntu:
+    pip:
+      packages: [pysensors]
 python-pyside:
   arch: [python2-pyside]
   debian: [python-pyside]
@@ -3278,6 +3300,10 @@ python-requests-oauthlib:
   fedora: [python-requests-oauthlib]
   gentoo: [dev-python/requests-oauthlib]
   ubuntu: [python-requests-oauthlib]
+python-requests-unixsocket:
+  ubuntu:
+    pip:
+      packages: [requests_unixsocket]
 python-responses-pip:
   osx:
     pip:
@@ -3579,6 +3605,10 @@ python-selenium-pip:
   ubuntu:
     pip:
       packages: [selenium]
+python-semantic-version:
+  ubuntu:
+    pip:
+      packages: [semantic_version]
 python-semver:
   debian: [python-semver]
   fedora: [python-semver]
