@@ -4409,6 +4409,8 @@ psutils:
   fedora: [psutils]
   gentoo: [psutils]
   ubuntu: [psutils]
+pulseaudio-utils:
+  ubuntu: [pulseaudio-utils]
 qhull-bin:
   arch: [qhull]
   debian: [qhull-bin]
