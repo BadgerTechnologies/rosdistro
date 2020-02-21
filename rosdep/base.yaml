@@ -4545,6 +4545,14 @@ rtmidi:
   debian: [librtmidi-dev]
   fedora: [rtmidi-devel]
   ubuntu: [librtmidi-dev]
+salt-minion:
+  debian: [salt-minion]
+  fedora: [salt-minion]
+  ubuntu: [salt-minion]
+salt-master:
+  debian: [salt-master]
+  fedora: [salt-master]
+  ubuntu: [salt-master]
 sbcl:
   alpine: [sbcl]
   arch: [sbcl]
