@@ -1557,6 +1557,12 @@ libceres-dev:
   fedora: [ceres-solver-devel]
   gentoo: ['sci-libs/ceres-solver[sparse,lapack]']
   ubuntu: [libceres-dev]
+libcgroup-dev:
+  debian: [libcgroup-dev]
+  fedora: [libcgroup-devel]
+  gentoo: [dev-libs/libcgroup]
+  openembedded: [libcgroup@openembedded-core]
+  ubuntu: [libcgroup-dev]
 libcoin60-dev:
   arch: [coin]
   debian:
